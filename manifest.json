@@ -1,0 +1,17 @@
+{
+   "browser_action": {
+      "default_icon": "./images/icon128.png",
+      "default_title": "interest"
+   },
+   "content_scripts": [ {
+      "js": [ "main.js" ],
+      "matches": [ "https://blog.csdn.net/*" ]
+   } ],
+   "description": "自动显示博客全文",
+   "icons": {
+      "128": "images/icon128.png"
+   },
+   "manifest_version": 2,
+   "name": "CSDN显示全文",
+   "version": "1.0.0"
+}
